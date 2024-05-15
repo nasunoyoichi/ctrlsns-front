@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Twitter Clone</h1>
+        <div class="tweet-box">
+            <input type="text" id="author" placeholder="Author">
+            <textarea id="content" placeholder="What's happening?"></textarea>
+            <button onclick="postTweet()">Tweet</button>
+        </div>
+        <div id="tweets-container" class="tweets-container">
+            <!-- Tweets will be displayed here -->
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
